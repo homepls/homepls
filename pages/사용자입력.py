@@ -23,7 +23,7 @@ age = st.number_input("나이를 입력하세요", min_value=0, max_value=120, s
 favorite_color = st.radio("좋아하는 색을 선택하세요", ["보라", "파랑", "노랑"], horizontal=True)
 
 # 4. 셀렉트 박스
-hobby = st.selectbox("취미를 선택하세요", ["독서", "운동", "음악", "게임", "기타"])
+hobby = st.selectbox("취미를 선택하세요", ["독서", "운동", "음악", "게임", "휴식"])
 
 # 5. 체크박스
 agree = st.checkbox("위의 내용을 모두 확인하였습니다.")
