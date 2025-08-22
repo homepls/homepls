@@ -1,12 +1,10 @@
 import streamlit as st
 
-st.title('나의 첫 웹 서비스 만들기!!')
+st.title('밸런스 게임')
 
 # 사용자 입력 받기
-name = st.text_input('이름을 입력해주세요 : ')
-mbti = st.selectbox('MBTI를 선택해주세요:', [
-    'INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP', 
-    'ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'
+name = st.text_input('ㅎㅎ')
+mbti = st.selectbox('다음중 더 말이 안되는 상황은?', [화가 머리 끝까지 난 남규현, 오토바이 타고 다니는 최민석, 수학 3점 짜리 문제도 못푸는 김무성, 낯가리면서 조용한 윤다울, 똑부러진 조영연, 어깨 깡패 김건호, 160cm 이승민
 ])
 
 # MBTI 설명 데이터 (더 자세히)
